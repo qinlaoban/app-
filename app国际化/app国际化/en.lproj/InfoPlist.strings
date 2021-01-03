@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  app国际化
+
+  Created by Qin on 2020/12/2.
+  Copyright © 2020 qin. All rights reserved.
+*/
+
+"CFBundleDisplayName"="wechat";

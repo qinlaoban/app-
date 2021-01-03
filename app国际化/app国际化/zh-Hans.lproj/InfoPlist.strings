@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  app国际化
+
+  Created by Qin on 2020/12/2.
+  Copyright © 2020 qin. All rights reserved.
+*/
+//  加密aes加密：aync_
+//
+//
+//
+"CFBundleDisplayName"="微信1";
