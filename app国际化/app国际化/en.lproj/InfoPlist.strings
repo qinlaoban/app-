@@ -4,6 +4,10 @@
 
   Created by Qin on 2020/12/2.
   Copyright © 2020 qin. All rights reserved.
+ 
+ 应用名称国际化
+ 暂时未发现动态修改app 名称方法
 */
 
-"CFBundleDisplayName"="wechat";
+
+"CFBundleDisplayName"="AppInternational";

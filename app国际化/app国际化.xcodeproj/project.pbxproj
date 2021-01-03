@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D695798E25A1970200561E40 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = D695798D25A1970200561E40 /* MainController.m */; };
+		D695799825A199A900561E40 /* SystemController.m in Sources */ = {isa = PBXBuildFile; fileRef = D695799625A199A900561E40 /* SystemController.m */; };
+		D69579A825A1A14300561E40 /* InAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D69579A725A1A14300561E40 /* InAppController.m */; };
 		D6B7A4F32577BD2000B7EF61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B7A4F22577BD2000B7EF61 /* AppDelegate.m */; };
-		D6B7A4F62577BD2000B7EF61 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B7A4F52577BD2000B7EF61 /* SceneDelegate.m */; };
-		D6B7A4F92577BD2000B7EF61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B7A4F82577BD2000B7EF61 /* ViewController.m */; };
 		D6B7A4FC2577BD2000B7EF61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B7A4FA2577BD2000B7EF61 /* Main.storyboard */; };
 		D6B7A4FE2577BD2300B7EF61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B7A4FD2577BD2300B7EF61 /* Assets.xcassets */; };
 		D6B7A5012577BD2300B7EF61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B7A4FF2577BD2300B7EF61 /* LaunchScreen.storyboard */; };
@@ -21,13 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D695798C25A1970200561E40 /* MainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		D695798D25A1970200561E40 /* MainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		D695799525A199A900561E40 /* SystemController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemController.h; sourceTree = "<group>"; };
+		D695799625A199A900561E40 /* SystemController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemController.m; sourceTree = "<group>"; };
+		D69579A625A1A14300561E40 /* InAppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InAppController.h; sourceTree = "<group>"; };
+		D69579A725A1A14300561E40 /* InAppController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InAppController.m; sourceTree = "<group>"; };
 		D6B7A4EE2577BD2000B7EF61 /* app国际化.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app国际化.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B7A4F12577BD2000B7EF61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6B7A4F22577BD2000B7EF61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D6B7A4F42577BD2000B7EF61 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		D6B7A4F52577BD2000B7EF61 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		D6B7A4F72577BD2000B7EF61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D6B7A4F82577BD2000B7EF61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D6B7A4FB2577BD2000B7EF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6B7A4FD2577BD2300B7EF61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6B7A5002577BD2300B7EF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +58,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D69579A125A19E5E00561E40 /* system */ = {
+			isa = PBXGroup;
+			children = (
+				D6B7A51D2577C28700B7EF61 /* Localizable.strings */,
+				D695799525A199A900561E40 /* SystemController.h */,
+				D695799625A199A900561E40 /* SystemController.m */,
+			);
+			name = system;
+			sourceTree = "<group>";
+		};
+		D69579A525A1A11500561E40 /* InApp */ = {
+			isa = PBXGroup;
+			children = (
+				D6B7A51F2577C40A00B7EF61 /* lan_en.strings */,
+				D6B7A5212577C41F00B7EF61 /* lan_cn.strings */,
+				D69579A625A1A14300561E40 /* InAppController.h */,
+				D69579A725A1A14300561E40 /* InAppController.m */,
+			);
+			path = InApp;
+			sourceTree = "<group>";
+		};
 		D6B7A4E52577BD2000B7EF61 = {
 			isa = PBXGroup;
 			children = (
@@ -76,14 +100,11 @@
 			children = (
 				D6B7A4F12577BD2000B7EF61 /* AppDelegate.h */,
 				D6B7A4F22577BD2000B7EF61 /* AppDelegate.m */,
-				D6B7A4F42577BD2000B7EF61 /* SceneDelegate.h */,
-				D6B7A4F52577BD2000B7EF61 /* SceneDelegate.m */,
-				D6B7A4F72577BD2000B7EF61 /* ViewController.h */,
-				D6B7A4F82577BD2000B7EF61 /* ViewController.m */,
-				D6B7A51F2577C40A00B7EF61 /* lan_en.strings */,
-				D6B7A5212577C41F00B7EF61 /* lan_cn.strings */,
+				D695798C25A1970200561E40 /* MainController.h */,
+				D695798D25A1970200561E40 /* MainController.m */,
 				D6B7A5102577BE2D00B7EF61 /* InfoPlist.strings */,
-				D6B7A51D2577C28700B7EF61 /* Localizable.strings */,
+				D69579A525A1A11500561E40 /* InApp */,
+				D69579A125A19E5E00561E40 /* system */,
 				D6B7A4FA2577BD2000B7EF61 /* Main.storyboard */,
 				D6B7A4FD2577BD2300B7EF61 /* Assets.xcassets */,
 				D6B7A4FF2577BD2300B7EF61 /* LaunchScreen.storyboard */,
@@ -168,10 +189,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6B7A4F92577BD2000B7EF61 /* ViewController.m in Sources */,
+				D695798E25A1970200561E40 /* MainController.m in Sources */,
+				D69579A825A1A14300561E40 /* InAppController.m in Sources */,
+				D695799825A199A900561E40 /* SystemController.m in Sources */,
 				D6B7A4F32577BD2000B7EF61 /* AppDelegate.m in Sources */,
 				D6B7A5042577BD2300B7EF61 /* main.m in Sources */,
-				D6B7A4F62577BD2000B7EF61 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
